@@ -1,0 +1,56 @@
+.grid {
+  display: grid;
+  margin: auto;
+  grid-template: 10fr / 1fr;
+}
+
+.header{
+
+}
+
+.clickMonkey{
+  color: #2A7588;
+  font-size: 15px;
+}
+
+.proyects{
+  color: #1D4E5A;
+}
+
+
+
+body {
+  background: white;
+
+}
+
+.margaMartinez{
+  color: #2A7588;
+}
+
+
+.LawsSoftwareDevelopment {
+  width: 100%;
+}
+
+.banner {
+
+
+}
+
+
+.MargaCode {
+  width: 100%;
+  display:block:
+}
+
+.occamSRazor{
+    color: #2A7588;
+    font-size: 30px;
+    diplay:block;
+    position: absolute;
+    z-index:1;
+    background-color: #E8E5D0;
+
+
+}
