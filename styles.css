@@ -13,44 +13,43 @@
   font-size: 15px;
 }
 
-.proyects{
+.projects{
   color: #1D4E5A;
+  font-style: Nobel;
 }
 
 
 
 body {
   background: white;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 
 .margaMartinez{
   color: #2A7588;
+  font-family: Nobel;
+  font-weight: bold;
 }
-
-
-.LawsSoftwareDevelopment {
-  width: 100%;
-}
-
-.banner {
-
-
-}
-
 
 .MargaCode {
   width: 100%;
   display:block:
 }
 
+.LawsSoftwareDevelopment {
+  width: 100%;
+}
+
 .occamSRazor{
     color: #2A7588;
     font-size: 30px;
-    diplay:block;
+    font-family: Nobel;
     position: absolute;
     z-index:1;
-    background-color: #E8E5D0;
+    width: 97%;
+    text-align: center;
 
 
 }
