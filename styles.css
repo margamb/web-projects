@@ -1,55 +1,160 @@
-.grid {
-  display: grid;
-  margin: auto;
-  grid-template: 10fr / 1fr;
+img {
+    width: 100%;
 }
-
-.header{
-
-}
-
-.clickMonkey{
-  color: #2A7588;
-  font-size: 15px;
-}
-
-.projects{
-  color: #1D4E5A;
-  font-style: Nobel;
-}
-
 
 
 body {
-  background: white;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-family: Interstate, Georgia, serif;
+  background-color: rgb(233, 230, 226);
+}
+
+.marga-logo {
+  width: 50%;
+  padding-top: 7%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 25%;
+}
+
+.project-info {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+
+a {
+  text-decoration: none;
+  color: #F83F54;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #6CAEBB;
+}
+
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  padding-bottom: 5%;
+  width: 90%;
+
 
 }
 
-.margaMartinez{
-  color: #2A7588;
-  font-family: Nobel;
-  font-weight: bold;
+
+.marga-code {
+  padding-top: 5%;
 }
 
-.MargaCode {
-  width: 100%;
-  display:block:
+/*.programming-laws {
+  z-index: 2;
+  position: relative;
+  width: 90%;
+  height: auto;
+}
+.laws-opacity {
+  z-index: 1;
+  position: absolute;
+  top: 419px;
+  left: 41px;
+  width: 90%;
+  height: auto;
+}
+.programming-laws:hover {
+  opacity: 0;*/
+
+.list-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
-.LawsSoftwareDevelopment {
-  width: 100%;
+.project {
+  width: 90%;
+  height: auto;
+  text-align: left;
 }
 
-.occamSRazor{
-    color: #2A7588;
-    font-size: 30px;
-    font-family: Nobel;
-    position: absolute;
-    z-index:1;
-    width: 97%;
-    text-align: center;
+.project img {
+  width: 95%;
+  /*border-radius: 10%;*/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .project {
+    width: 40%;
+    height: auto;
+    padding-bottom: 4%;
+  }
+
+  .project img {
+    width: 90%;
+    /*border-radius: 10%;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .project {
+    width: 30%;
+    height: auto;
+    text-align: left;
+  }
+
+  .project img {
+    width: 90%;
+    /*border-radius: 10%;*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
 
 }
