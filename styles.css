@@ -4,7 +4,7 @@ img {
 
 
 body {
-  font-family: Interstate, Georgia, serif;
+  font-family: Interstate, Georgia, sans-serif;
   background-color: rgb(233, 230, 226);
 }
 
@@ -99,7 +99,7 @@ ul {
     list-style: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 38rem) {
   h2 {
     font-size: 1.7rem;
   }
@@ -110,7 +110,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 50rem) {
   .project {
     width: 40%;
     height: auto;
@@ -135,7 +135,7 @@ ul {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 62.5rem) {
   .project {
     width: 30%;
     height: auto;
